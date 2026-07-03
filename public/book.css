@@ -1,0 +1,230 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Poppins,sans-serif;
+}
+
+body{
+    min-height:100vh;
+    background:linear-gradient(135deg,#f7f7f7,#ececec);
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:40px;
+}
+
+
+
+#sessioncard{
+    width:750px;
+    background:white;
+    border-radius:20px;
+    box-shadow:0 20px 50px rgba(0,0,0,.12);
+
+    padding:40px;
+}
+
+
+
+#mename{
+    color:brown;
+    font-size:2rem;
+    margin-bottom:30px;
+    text-align:center;
+}
+
+
+
+#formbhar{
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+}
+
+
+#formbhar label{
+    color:#5b1c16;
+    font-weight:600;
+    margin-bottom:-12px;
+}
+
+
+
+#formbhar input,
+#formbhar select{
+
+    width:100%;
+
+    padding:15px 18px;
+
+    border:2px solid #ddd;
+
+    border-radius:12px;
+
+    outline:none;
+
+    font-size:16px;
+
+    transition:.3s;
+
+    background:white;
+}
+
+
+
+#formbhar input:focus,
+#formbhar select:focus{
+
+    border-color:brown;
+
+    box-shadow:0 0 0 4px rgba(165,42,42,.15);
+
+}
+
+
+
+input::placeholder{
+    color:#888;
+}
+
+
+
+select{
+    cursor:pointer;
+}
+
+
+
+#bookbtn{
+
+    margin-top:15px;
+
+    padding:16px;
+
+    border:none;
+
+    border-radius:12px;
+
+    background:brown;
+
+    color:white;
+
+    font-size:17px;
+
+    font-weight:600;
+
+    cursor:pointer;
+
+    transition:.3s;
+}
+
+#bookbtn:hover{
+
+    transform:translateY(-3px);
+
+    background:#7d2117;
+
+    box-shadow:0 12px 25px rgba(165,42,42,.3);
+
+}
+
+.successCard{
+
+    max-width:500px;
+    margin:auto;
+    text-align:center;
+
+    padding:35px;
+
+    border-radius:18px;
+
+    background:white;
+
+    box-shadow:0 10px 35px rgba(0,0,0,.12);
+
+}
+
+.tick{
+
+    width:80px;
+    height:80px;
+
+    margin:auto;
+
+    border-radius:50%;
+
+    background:#27ae60;
+
+    color:white;
+
+    display:flex;
+
+    justify-content:center;
+    align-items:center;
+
+    font-size:40px;
+
+    margin-bottom:20px;
+
+}
+
+.summary{
+
+    margin:25px 0;
+
+    padding:18px;
+
+    background:#f7f7f7;
+
+    border-radius:12px;
+
+}
+
+.actions{
+
+    margin-top:30px;
+
+    display:flex;
+
+    gap:15px;
+
+    justify-content:center;
+
+}
+
+.homeBtn,
+#againBtn{
+
+    padding:12px 22px;
+
+    border:none;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+    text-decoration:none;
+
+    font-weight:bold;
+
+}
+
+.homeBtn{
+
+    background:#7b1e1e;
+    color:white;
+
+}
+
+#againBtn{
+
+    background:#e9e9e9;
+
+}
+
+#bookbtn:disabled{
+    cursor: not-allowed;
+    opacity: .8;
+}

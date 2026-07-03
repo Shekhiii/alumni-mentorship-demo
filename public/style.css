@@ -1,0 +1,358 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.view{
+    display: block;
+}
+
+.noview{
+    display:none;
+}
+
+
+#aboutlogin{
+    position: relative;
+
+    display: flex;
+    align-items: center;
+
+    gap: 35px;
+
+    margin-left: auto;
+
+    margin-right: 30px;
+}
+
+#aboutlogin p{
+    margin:0;
+
+    color:white;
+
+    font-size:1rem;
+
+    font-weight:600;
+
+    cursor:pointer;
+
+    transition:.3s;
+}
+
+#aboutlogin p:hover{
+    color:#ffe6e6;
+}
+
+#slider{
+    position:absolute;
+
+    bottom:-8px;
+
+    left: -2%;
+
+    width:110px;
+
+    height:3px;
+
+    background:white;
+
+    border-radius:50px;
+
+    transition:.35s cubic-bezier(.4,0,.2,1);
+}
+
+
+
+#redhead{
+    display:flex;
+    align-items:center;
+    background:brown;
+    padding:10px 20px;
+}
+
+#mainlink{
+    color:white;
+    text-decoration: none;
+    padding: 5px 20px;
+}
+
+
+
+#whitehead{
+    display: flex;
+     margin:10px 0;
+}
+
+#nsutlogo{
+    padding: 5px 5px;
+    width: 100px;
+}
+#logotext{
+    font-size: 1.5em;
+    font-weight: 600;
+}
+.red{
+    color: brown;
+}
+
+#display{
+    width: 100%;
+    height: 500px;
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+    url("nsutpic.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    background-blend-mode:hard-light;
+}
+#display h1{
+    font-size: 3.5rem;
+    width: 70%;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+#phewphew{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 70px 0 50px;
+}
+
+#mum{
+    position: relative;
+    display: inline-block;
+    color: #5b1c16;
+    background: white;
+    padding: 15px 35px;
+    font-size: 2.3rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+#mum::before,
+#mum::after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 90px;
+    height: 3px;
+    background: brown;
+}
+
+#mum::before{
+    left: -120px;
+}
+
+#mum::after{
+    right: -120px;
+}
+
+
+#mentorcard{
+    width: 90%;
+    margin: 60px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(280px,1fr));
+    gap: 35px;
+}
+
+.mentorcontainer{
+    background: white;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 12px 35px rgba(0,0,0,.15);
+    transition: 0.35s;
+    text-align: center;
+    padding: 30px 20px;
+    border-top: 6px solid brown;
+}
+
+.mentorcontainer img{
+    width:150px;
+    height:150px;
+    border-radius:50%;
+    object-fit:cover;
+    border:5px solid brown;
+    margin-bottom:20px;
+}
+
+.mentorcontainer:hover{
+    transform: translateY(-12px);
+    box-shadow: 0 20px 45px rgba(0,0,0,.25);
+}
+
+.mentorcontainer h2{
+    margin:10px 0 5px;
+    font-size:1.4rem;
+}
+
+.mentorcontainer p{
+    color:#666;
+    margin-bottom:25px;
+}
+
+.profbtn,
+.bookbtn{
+    display: inline-block;
+    padding: 12px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    margin: 5px;
+}
+
+.profbtn{
+    background: #f3f3f3;
+    color: #333;
+}
+
+.profbtn:hover{
+    background: #ddd;
+    transform: translateY(-2px);
+}
+
+.bookbtn{
+    background: brown;
+    color: white;
+}
+
+.bookbtn:hover{
+    background: #7a1f1f;
+    transform: translateY(-2px);
+}
+
+
+
+#adminview{
+    width:90%;
+    margin:40px auto;
+
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(340px,1fr));
+
+    gap:30px;
+}
+
+.bookingcard{
+
+    background:white;
+
+    border-radius:18px;
+
+    padding:25px;
+
+    box-shadow:0 12px 28px rgba(0,0,0,.12);
+
+    transition:.3s;
+
+    border-left:7px solid brown;
+}
+
+.bookingcard:hover{
+
+    transform:translateY(-6px);
+
+    box-shadow:0 18px 35px rgba(0,0,0,.18);
+
+}
+
+.mentorname{
+
+    color:brown;
+
+    margin-bottom:18px;
+
+    font-size:1.5rem;
+}
+
+.bookingcard p{
+
+    margin:12px 0;
+
+    color:#555;
+
+    font-size:1rem;
+}
+
+.btnbox{
+
+    display:flex;
+
+    justify-content:flex-end;
+
+    gap:12px;
+
+    margin-top:25px;
+}
+
+.accept{
+
+    background:#1fa74d;
+
+    color:white;
+
+    border:none;
+
+    padding:10px 22px;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+    font-weight:600;
+
+    transition:.3s;
+}
+
+.accept:hover{
+
+    background:#16863d;
+
+}
+
+.reject{
+
+    background:#d33;
+
+    color:white;
+
+    border:none;
+
+    padding:10px 22px;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+    font-weight:600;
+
+    transition:.3s;
+}
+
+.reject:hover{
+
+    background:#b61e1e;
+
+}
+
+.bookingcard{
+    transition: opacity .3s ease, transform .3s ease;
+}
+
+.bookingcard.removing{
+    opacity: 0;
+    transform: translateX(30px);
+}
+
+.bookingcard button:disabled{
+    opacity: .75;
+    cursor: not-allowed;
+}

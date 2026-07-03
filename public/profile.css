@@ -1,0 +1,146 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Poppins,sans-serif;
+}
+
+body{
+
+    min-height:100vh;
+
+    background:linear-gradient(135deg,#f3f4f6,#e6e6e6);
+
+    display:flex;
+
+    justify-content:center;
+
+    padding:60px 20px;
+
+}
+
+.profile-card{
+
+    width:750px;
+
+    background:white;
+
+    border-radius:20px;
+
+    box-shadow:0 15px 40px rgba(0,0,0,.15);
+
+    padding:40px;
+
+}
+
+#backbtn{
+
+    border:none;
+
+    background:none;
+
+    color:brown;
+
+    font-size:17px;
+
+    font-weight:600;
+
+    cursor:pointer;
+
+    margin-bottom:30px;
+
+}
+
+#backbtn:hover{
+
+    text-decoration:underline;
+
+}
+
+#photu{
+
+    display:block;
+
+    width:180px;
+
+    height:180px;
+
+    object-fit:cover;
+
+    border-radius:50%;
+
+    border:6px solid brown;
+
+    margin:auto;
+
+}
+
+#name{
+
+    text-align:center;
+
+    margin-top:20px;
+
+    font-size:2.4rem;
+
+}
+
+#company{
+
+    text-align:center;
+
+    color:#666;
+
+    margin-top:8px;
+
+    font-weight:500;
+
+}
+
+#smallinfo{
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    gap:15px;
+
+    margin-top:25px;
+
+    color:brown;
+
+    font-weight:600;
+
+}
+
+.section{
+
+    margin-top:40px;
+
+    background:#fafafa;
+
+    border-radius:12px;
+
+    padding:25px;
+
+    border-left:6px solid brown;
+
+}
+
+.section h2{
+
+    margin-bottom:15px;
+
+    color:brown;
+
+}
+
+.section p{
+
+    color:#555;
+
+    line-height:1.8;
+
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="book.css">
+</head>
+<body>
+    
+<div id="sessioncard">
+
+<div id="bookingform">
+    <h1 id="mename">Rahul Sharma</h1>
+
+    <form id="formbhar">
+
+        <input
+        id="askname"
+        placeholder="Your Name">
+
+        <input
+        id="email"
+        placeholder="Email" type="email">
+
+        <label>Select Date</label>
+
+        <input type="date" id="dates">
+
+        <label>Select Time</label>
+
+        <select id="time">
+
+            <option disabled selected>Select a time</option>
+
+            <option>10:00 AM</option>
+            <option>11:00 AM</option>
+            <option>12:00 PM</option>
+            <option>2:00 PM</option>
+            <option>3:00 PM</option>
+            <option>4:00 PM</option>
+            <option>5:00 PM</option>
+
+        </select>
+
+        <button id="bookbtn">
+            Book Session
+        </button>
+
+    </form>
+    </div>
+
+</div>
+
+    
+    <script src="book.js"></script>
+</body>
+</html>
