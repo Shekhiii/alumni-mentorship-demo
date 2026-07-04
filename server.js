@@ -1,4 +1,7 @@
 require("dotenv").config();
+const dns = require("dns");
+dns.setDefaultResultOrder("ipv4first");
+
 const fs = require("fs");
 const express = require("express");
 const nodemailer = require("nodemailer");
